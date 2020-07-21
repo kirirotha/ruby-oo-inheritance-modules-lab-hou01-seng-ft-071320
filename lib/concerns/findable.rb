@@ -6,6 +6,5 @@ module Findable
       if x == nil
         x = Artist.all.detect{|a| a.name == name}
       end
-    end
   end
 end
